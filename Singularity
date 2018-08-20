@@ -9,6 +9,7 @@ From: continuumio/miniconda
 
     # Apparently Cling needs gcc7.2
     apt-get update -y
+    apt-get install -y gnupg
     apt-get install -y software-properties-common
     add-apt-repository -y ppa:jonathonf/gcc-7.2
     apt-get update -y
