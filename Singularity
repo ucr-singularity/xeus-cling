@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: ubuntu/xenial
+From: ubuntu:xenial
 
 %environment
 
