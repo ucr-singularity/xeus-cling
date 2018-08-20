@@ -8,6 +8,7 @@ From: continuumio/miniconda
 %post
 
     # Apparently Cling needs gcc7.2
+    apt-get install -y software-properties-common python-software-properties
     add-apt-repository -y ppa:jonathonf/gcc-7.2
     apt-get update -y
     apt-get install -y gcc-7
